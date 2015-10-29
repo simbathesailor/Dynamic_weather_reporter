@@ -1,0 +1,62 @@
+.container{
+
+	background-image: "D:\javascriptpracticecodes\localweather\cloudyweather.jpg";
+	
+	margin: 40px;
+	padding-left:120px;
+
+	
+
+
+
+
+
+}
+.center{
+	text-align: center;
+}
+.top-heading{
+	color: yellow;
+}
+.box{
+	position: relative;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	margin: 100px;
+	display: inline;
+	padding: 20px 40px 20px 40px;
+	border-radius: 20px;
+	border-width:2px;
+	font-family:Impact, Charcoal, sans-serif;
+
+}
+.box1{
+	position: relative;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	
+	margin: 90px;
+	display: inline;
+	padding: 20px 40px 20px 40px;
+	border-radius: 20px;
+	border-width:2px;	
+
+}
+.hidebutton{
+	opacity: 0;
+}
+.showbutton{
+	opacity: 100;
+}
+.margindown{
+	margin-bottom: 30px;
+}
+.celsius{
+	background-color: blue;
+}
+.fahrenheit{
+	background-color: red;
+}

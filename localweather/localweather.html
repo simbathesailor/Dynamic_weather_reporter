@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width-device-width, initial-scale-1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href=".\localweather.css">
+
+<head>
+    <title>Local weather app</title>
+</head>
+
+<body background="https://dl-web.dropbox.com/get/localweather/cloudyweather.jpg?_subject_uid=186783940&w=AAAisr2Urg0DKs3nrzsj8bNF9VwFyJvFPty5PWMzjRCo1Q">
+    <h1 class="center top-heading">Weather dashboard</h1>
+    <h2 class="center top-heading">Local weather app</h2>
+    <form class="center form-inline">
+        <div>
+            <div class="form-group">
+                <input type="name" class="form-control input-lg" id="inputcity" placeholder="City Name">
+                <button id="but1" type="submit" class="btn btn-primary btn-lg" data-loading-text="Loading....">click to find temperature and weather</button>
+            </div>
+            <div class="container">
+                <div class="row margindown">
+                    <div id=1 class="box1">
+                    </div>
+                    <div id=2 class="box1">
+                    </div>
+                </div>
+                <div class="row margindown">
+                    <div id=3 class="box1">
+                        <img id="wicon">
+                    </div>
+                </div>
+
+                <div class="row margindown">
+                    <button type="button" class="btn btn-primary btn-lg center hidebutton" id=5 data-units="c">°C</button>
+                </div>
+
+
+            </div>
+        </div>
+        
+        </div>
+    </form>
+
+
+
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src=".\localweather.js"></script>
+
+</html>
